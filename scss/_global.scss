@@ -68,9 +68,8 @@ section {
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
-    color: white;
+    color: #fff;
+    border-color:transparent
   }
   &:active,
   &:focus {
@@ -95,4 +94,11 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+.btn-primary{
+  background-color:#e42348 !important;
+  border-color:transparent;
+}
+.navbar-brand{
+  color:#e42348 !important;
 }
